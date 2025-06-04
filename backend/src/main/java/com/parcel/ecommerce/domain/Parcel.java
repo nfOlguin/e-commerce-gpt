@@ -13,6 +13,14 @@ public class Parcel {
      * Polygon shape in WKT format defining the lot on the map.
      */
     private String shape;
+    /**
+     * Owner information for this parcel.
+     */
+    private String ownerInfo;
+    /**
+     * Additional features or infrastructure details.
+     */
+    private String extras;
 
     // getters and setters omitted for brevity
 }

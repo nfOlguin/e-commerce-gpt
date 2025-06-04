@@ -1,0 +1,2 @@
+ALTER TABLE parcels ADD COLUMN owner_info VARCHAR(255);
+ALTER TABLE parcels ADD COLUMN extras TEXT;

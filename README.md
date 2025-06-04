@@ -7,6 +7,8 @@ Base monorepo providing backend, frontend and AWS infrastructure to build an e-c
 - Exposes REST API for parcel management.
 - Example properties configured for PostgreSQL.
 - Parcels now include a `shape` field storing the polygon in WKT format.
+- New attributes `ownerInfo` and `extras` let vendors specify owner data
+  and additional infrastructure when listing a parcel.
 
 ## Frontend
 - **React** + **Vite** with **TypeScript**.

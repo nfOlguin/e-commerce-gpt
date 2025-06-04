@@ -21,5 +21,8 @@ public class ParcelEntity {
      */
     @Column(columnDefinition = "text")
     private String shape;
+    private String ownerInfo;
+    @Column(columnDefinition = "text")
+    private String extras;
     // getters and setters omitted for brevity
 }
