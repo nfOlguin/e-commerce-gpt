@@ -6,6 +6,7 @@ Base monorepo providing backend, frontend and AWS infrastructure to build an e-c
 - **Spring Boot** (Maven) following a hexagonal approach.
 - Exposes REST API for parcel management.
 - Example properties configured for PostgreSQL.
+- Parcels now include a `shape` field storing the polygon in WKT format.
 
 ## Frontend
 - **React** + **Vite** with **TypeScript**.

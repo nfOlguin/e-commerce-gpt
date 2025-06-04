@@ -16,5 +16,10 @@ public class ParcelEntity {
     private BigDecimal price;
     @Enumerated(EnumType.STRING)
     private ParcelStatus status;
+    /**
+     * Polygon shape in WKT format defining the lot on the map.
+     */
+    @Column(columnDefinition = "text")
+    private String shape;
     // getters and setters omitted for brevity
 }
