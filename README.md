@@ -6,6 +6,7 @@ Base monorepo providing backend, frontend and AWS infrastructure to build an e-c
 - **Spring Boot** (Maven) following a hexagonal approach.
 - Exposes REST API for parcel management.
 - Example properties configured for PostgreSQL.
+- Schema managed with **Flyway** migrations under `src/main/resources/db/migration`.
 
 ## Frontend
 - **React** + **Vite** with **TypeScript**.
