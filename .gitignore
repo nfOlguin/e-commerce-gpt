@@ -1,8 +1,0 @@
-node_modules/
-dist/
-
-# Maven build output
-backend/target/
-
-# Ignore package-lock in frontend
-frontend/package-lock.json
