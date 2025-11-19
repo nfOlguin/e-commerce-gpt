@@ -1,1 +1,0 @@
-ALTER TABLE parcels ADD COLUMN shape TEXT;

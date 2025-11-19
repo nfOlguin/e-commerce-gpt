@@ -1,8 +1,0 @@
-CREATE TABLE IF NOT EXISTS parcels (
-    id BIGSERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    location VARCHAR(255) NOT NULL,
-    size NUMERIC(10,2) NOT NULL,
-    price NUMERIC(10,2) NOT NULL,
-    status VARCHAR(50) NOT NULL
-);
