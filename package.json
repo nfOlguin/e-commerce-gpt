@@ -1,0 +1,8 @@
+{
+  "name": "innovaterreno-root",
+  "private": true,
+  "scripts": {
+    "db:up": "cd infrastructure/local && docker compose up -d",
+    "db:down": "cd infrastructure/local && docker compose down"
+  }
+}

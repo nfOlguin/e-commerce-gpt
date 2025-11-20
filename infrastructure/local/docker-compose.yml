@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: innovaterreno-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: innova
+      POSTGRES_PASSWORD: innova123
+      POSTGRES_DB: innovaterreno
+    ports:
+      - "5432:5432"
+    volumes:
+      - ../../postgres-data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer:latest
+    container_name: innovaterreno-adminer
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+    ports:
+      - "8080:8080"
